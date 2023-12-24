@@ -22,27 +22,27 @@ export function CardsCarousel() {
 			}
 		>
 			<Carousel.Slide>
-				<Card image="/energy/domino-1.jpg" />
+				<Card image="./energy/domino-1.jpg" />
 			</Carousel.Slide>
 
 			<Carousel.Slide>
-				<Card image="/energy/elyseum-1.jpg" />
+				<Card image="./energy/elyseum-1.jpg" />
 			</Carousel.Slide>
 
 			<Carousel.Slide>
-				<Card image="/energy/gefest-1.jpg" />
+				<Card image="./energy/gefest-1.jpg" />
 			</Carousel.Slide>
 
 			<Carousel.Slide>
-				<Card image="/energy/kador-1.jpg" />
+				<Card image="./energy/kador-1.jpg" />
 			</Carousel.Slide>
 
 			<Carousel.Slide>
-				<Card image="/energy/m8-1.jpg" />
+				<Card image="./energy/m8-1.jpg" />
 			</Carousel.Slide>
 
 			<Carousel.Slide>
-				<Card image="/energy/modern-1.jpg" />
+				<Card image="./energy/modern-1.jpg" />
 			</Carousel.Slide>
 		</Carousel>
 	);
