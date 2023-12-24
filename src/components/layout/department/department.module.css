@@ -1,0 +1,41 @@
+.section {
+	max-width: 1200px;
+
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+
+	overflow: hidden;
+
+	@media (min-width: $mantine-breakpoint-sm) {
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+}
+
+.title {
+	padding: 10px 20px;
+	text-align: center;
+}
+
+.architect,
+.mobile,
+.assembly {
+	width: 360px;
+	height: 360px;
+	object-fit: cover;
+}
+
+.architect {
+	object-position: 35% 100%;
+}
+
+.mobile {
+	object-position: 100% 100%;
+}

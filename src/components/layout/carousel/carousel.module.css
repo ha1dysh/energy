@@ -1,0 +1,16 @@
+.card {
+	height: rem(440px);
+
+	display: flex;
+	justify-content: flex-end;
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.carousel {
+	max-width: 1400px;
+	margin: 40px auto;
+	padding: 20px;
+}

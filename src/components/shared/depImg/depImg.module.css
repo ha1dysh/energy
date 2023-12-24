@@ -1,0 +1,15 @@
+.architect,
+.mobile,
+.assembly {
+	width: 360px;
+	height: 360px;
+	object-fit: cover;
+}
+
+.architect {
+	object-position: 35% 100%;
+}
+
+.mobile {
+	object-position: 100% 100%;
+}

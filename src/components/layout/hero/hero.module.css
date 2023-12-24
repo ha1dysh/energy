@@ -1,0 +1,120 @@
+.section {
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.bgColumn {
+	position: absolute;
+
+	width: 210px;
+	height: 100%;
+	left: calc(45% - (210px / 2));
+
+	background-color: light-dark(
+		var(--mantine-color-orange-5),
+		var(--mantine-color-orange-6)
+	);
+	@media (min-width: $mantine-breakpoint-sm) {
+		width: 360px;
+		left: calc(45% - (360px / 2));
+	}
+}
+
+.mainCard {
+	position: relative;
+
+	z-index: 2;
+
+	width: 285px;
+	height: 300px;
+	padding: 20px;
+	margin-top: 50px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+	background-color: light-dark(
+		var(--mantine-color-dark-4),
+		var(--mantine-color-dark-3)
+	);
+
+	@media (min-width: $mantine-breakpoint-sm) {
+		left: -15%;
+		width: 570px;
+		height: 390px;
+	}
+}
+
+.p {
+	margin: 0;
+
+	font-size: 16px;
+
+	@mixin light {
+		color: #fff;
+	}
+
+	@media (min-width: $mantine-breakpoint-sm) {
+		font-size: 24px;
+	}
+}
+
+.h1 {
+	margin: 0;
+
+	@mixin light {
+		color: #fff;
+	}
+
+	@media (min-width: $mantine-breakpoint-sm) {
+		font-size: 48px;
+	}
+}
+
+.houseImg {
+	position: relative;
+	top: -25px;
+	left: 40px;
+
+	width: 285px;
+	height: 255px;
+
+	display: block;
+
+	@media (min-width: $mantine-breakpoint-sm) {
+		top: -45px;
+		left: 120px;
+
+		width: 530px;
+		height: 390px;
+	}
+
+	@media (min-width: $mantine-breakpoint-md) {
+		width: 730px;
+		height: 590px;
+	}
+}
+
+.description {
+	position: relative;
+	top: -60px;
+	z-index: 1;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 16px;
+
+	@media (min-width: $mantine-breakpoint-md) {
+		top: -120px;
+
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		gap: 32px;
+	}
+}
